@@ -943,7 +943,7 @@ body {
 }
 
 /* FAQ section */
-h1 {
+.faq h1 {
   margin: 63px 0px 0px 124px;
   color: var(--navy-dark);
   font-size: clamp(2rem, 4vw, 3.1rem);
@@ -951,7 +951,7 @@ h1 {
   font-weight: 850;
   letter-spacing: -1.5px;
 }
-span {
+.faq span {
   line-height: 0.5;
 }
 .faq-container {
@@ -963,7 +963,7 @@ span {
   box-shadow: 6px 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.faq-container h2 {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
@@ -1044,6 +1044,7 @@ details p {
 }
 
 .booking-box h2 {
+  font-size: clamp(2rem, 4vw, 3.1rem);
   max-width: 680px;
   margin: 10px 0;
   color: #fff;
@@ -1379,4 +1380,3 @@ footer hr {
     transform: scale(0.88);
   }
 }
-
